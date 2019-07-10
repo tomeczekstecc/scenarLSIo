@@ -1,9 +1,10 @@
 import React from 'react'
-import reactDOM from 'react-dom'
+// eslint-disable-next-line
+import Nav from './Nav'
 
 function App () {
   return(
-    <h1>Hello</h1>
+    <Nav />
   )
 }
 
