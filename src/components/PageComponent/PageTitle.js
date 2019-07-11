@@ -1,14 +1,13 @@
 import React from "react";
 
-function PageTitle(props) {
+function PageTitle({ id, title }) {
   return (
     <div>
       <h2>
-        {props.id} {props.title}
+        {id} {title}
       </h2>
     </div>
   );
 }
 
 export default PageTitle;
-  

@@ -9,10 +9,10 @@ class MainContent extends React.Component {
     this.state = { pages: PagesData };
   }
   render() {
-    const pages = this.state.pages.map(item => <Page item={item} />);
+    const pages = this.state.pages.map(item => <Page item={item} key={item.id} />);
 
     return <div>{pages}</div>;
-    console.log(pages);
+ 
   }
 }
 

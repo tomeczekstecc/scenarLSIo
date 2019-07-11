@@ -2,9 +2,9 @@ import React from 'react'
 
 function PageImage() {
   return (
-    <div>
-      <img src="/../../data/test_image.jpg" alt="scene_image"/>
-    </div>
+
+      <img src="./test_image.jpg" alt="scene_image"/>
+
   )
 }
 
