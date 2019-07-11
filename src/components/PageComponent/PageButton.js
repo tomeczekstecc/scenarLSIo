@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
+import styles from "../../style";
 
 function PageButton() {
   return (
     <div>
       <button className="btn btn-info btn-sm m-3">DODAJ SCENĘ</button>
-      <hr/>
+      <hr />
     </div>
-  )
+  );
 }
 
-export default PageButton
+export default PageButton;
