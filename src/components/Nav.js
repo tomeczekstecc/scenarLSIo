@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import ReactDom from "react-dom";
-import style from './style'
+import styles from '../style'
 
-function Nav() {
+function Nav(props) {
 
   return (
     <Fragment>

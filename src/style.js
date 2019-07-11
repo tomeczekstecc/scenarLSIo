@@ -1,14 +1,8 @@
-
-
-const styles = () => {
-
-{
-styleSpan:{
-color: "lightBlue"
-}
-}
+const styles =  {
+    styleSpan: {
+      color: "lightBlue"
+    }
 
 };
 
-
-export default styles
+export default styles;

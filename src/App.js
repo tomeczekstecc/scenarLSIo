@@ -1,11 +1,15 @@
-import React from 'react'
+import React, {Fragment} from "react";
 // eslint-disable-next-line
-import Nav from './Nav'
+import Nav from "./components/Nav";
+import MainContent from './components/MainContent'
 
-function App () {
-  return(
-    <Nav />
-  )
+function App() {
+  return (
+    <Fragment>
+      <Nav />
+      <MainContent />
+    </Fragment>
+  );
 }
 
-export default App
+export default App;
