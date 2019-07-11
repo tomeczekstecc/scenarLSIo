@@ -5,10 +5,11 @@ import PageButton from "./PageButton";
 import PageImage from "./PageImage";
 
 export class Page extends Component {
-  render() {
+  render(props) {
     return (
       <div className="m-4">
-        <PageTitle />
+        <PageTitle title={this.props.title}
+        id={this.props.id} />
         <PageContent />
         <PageImage />
         <PageButton />

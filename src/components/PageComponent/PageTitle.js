@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 
-function PageTitle() {
+function PageTitle(props) {
   return (
     <div>
-      <h2>myTitle</h2>
+      <h2>
+        {props.id} {props.title}
+      </h2>
     </div>
-  )
+  );
 }
 
-export default PageTitle
+export default PageTitle;
+  
