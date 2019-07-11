@@ -12,8 +12,8 @@ class MainContent extends React.Component {
   render() {
 
     const pages = this.state.pages.map(item =>
-<Page key={item.id}
-      title={item.title}/>
+<Page item={item}
+      />
 
       )
 

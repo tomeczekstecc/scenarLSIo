@@ -6,12 +6,13 @@ import PageImage from "./PageImage";
 
 export class Page extends Component {
   render(props) {
+    const { id, title, content, img } = this.props.item;
+
     return (
       <div className="m-4">
-        <PageTitle title={this.props.title}
-        id={this.props.id} />
-        <PageContent />
-        <PageImage />
+        <PageTitle id={id} title={title} />
+        <PageContent content={content} />
+        <PageImage imgUrl={img} />
         <PageButton />
       </div>
     );
