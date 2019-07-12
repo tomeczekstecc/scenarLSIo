@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-function PageImage() {
-  return (
-
-      <img src="./test_image.jpg" alt="scene_image"/>
-
-  )
+function PageImage(props) {
+  console.log(props.img);
+  const image = props.img;
+  return <img src={require(`${props.img}`)} alt="scene_image" />;
 }
 
-export default PageImage
+export default PageImage;

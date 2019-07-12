@@ -1,19 +1,21 @@
 import React from "react";
-import ReactDom from "react-dom";
 import Page from "./PageComponent/Page";
-import PagesData from "../data/data";
+
 
 class MainContent extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
-    this.state = { pages: PagesData };
+    this.state = { props };
+    console.log(props);
   }
+
   render() {
-    const pages = this.state.pages.map(item => <Page item={item} key={item.id} />);
+    const pages = this.state.props.pagesData.map(item => <Page item={item} key={item.id} />);
 
     return <div>{pages}</div>;
- 
+
   }
+
 }
 
 export default MainContent;

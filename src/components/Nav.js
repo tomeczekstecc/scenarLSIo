@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import ReactDom from "react-dom";
 import styles from '../style'
 
 function Nav(props) {
@@ -21,17 +20,17 @@ function Nav(props) {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <a href="index.html" className="nav-link">
                   o projekcie
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <a href="index.html" className="nav-link">
                   zespół
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link">
+                <a href="index.html" className="nav-link">
                   LSI.slaskie.pl
                 </a>
               </li>
